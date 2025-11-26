@@ -71,17 +71,6 @@ YOLOv5 기반 객체 인식 모델을 활용하여 사람 얼굴 영역을 탐�
 - 주요 설정  
   - Epoch 수, Batch size, Learning rate 등 하이퍼파라미터 튜닝  
 
-- 학습 실행 예시  
-
-    python train.py \
-      --img 640 \
-      --batch 16 \
-      --epochs 100 \
-      --data face_mask.yaml \
-      --weights yolov5s.pt \
-      --project runs/face_mask \
-      --name exp_mask_detection
-
 - 모니터링 및 로그  
   - Loss (box, obj, cls) 변화 추이 그래프  
   - mAP@0.5, Precision, Recall 곡선 시각화  
@@ -94,15 +83,6 @@ YOLOv5 기반 객체 인식 모델을 활용하여 사람 얼굴 영역을 탐�
   - 검출된 얼굴 영역에 Bounding Box 표시  
   - 클래스별 색상과 라벨 텍스트(0, 1, 2 → 의미 있는 텍스트로 매핑) 출력  
 
-- 단일 이미지 추론 및 시각화 예시 스니펫  
-
-    # img: numpy array 또는 PIL 이미지
-    results = model(img)
-    for *xyxy, conf, cls in results.xyxy[0]:
-        label = class_names[int(cls)]
-        # OpenCV로 bounding box 및 텍스트 그리기 예시
-        # cv2.rectangle(...)
-        # cv2.putText(...)
 
 ### 5. 결과 분석 및 개선 아이디어
 
