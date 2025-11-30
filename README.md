@@ -8,11 +8,13 @@
 
 | Branch Name | Description |
 |-------------|-------------|
-| **Fundamentals_of_Artificial_Intelligence** | 인공지능기초 수업 내용을 정리한 브랜치 |
-| **Machine_Learning** | 기계학습 수업 과제 및 실습 내용을 정리한 브랜치 |
-| **Deep_Learning** | 딥러닝 관련 실습, 코드, 과제 등을 모아둔 브랜치 |
+| **Fundamentals_of_Artificial_Intelligence** | 인공지능기초 수업 과제/실습 |
+| **Machine_Learning** | 기계학습 수업 과제/실습  |
+| **Deep_Learning** | 딥러닝 수업 과제/실습 |
+
+> (File)안에는 수업 자료가 나와있습니다.
+
 
 > 이 레포지토리는 **AI·ML·DL 수업 전체를 통합한 저장소**이며,
 > 브랜치 단위로 과목별 정리가 이루어져 있습니다.  
-> 사용자는 `main`에서 원하는 학습 브랜치로 이동하여 내용을 확인할 수 있습니다.
-
+> 사용자는 `main`에서 원하는 학습 브랜치로 이동하여 내용을 확인할 수 있습니다. 
